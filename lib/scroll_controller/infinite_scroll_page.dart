@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:infinite_scroll_test/position/infinite_scroll_controller.dart';
+import 'package:infinite_scroll_test/scroll_controller/infinite_scroll_controller.dart';
 
 class InfiniteScrollPage extends ConsumerWidget {
   const InfiniteScrollPage({Key? key}) : super(key: key);

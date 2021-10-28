@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:infinite_scroll_test/position/infinite_scroll_state.dart';
+import 'package:infinite_scroll_test/scroll_controller/infinite_scroll_state.dart';
 
 final infiniteScrollControllerProvider = StateNotifierProvider.autoDispose<
     InfiniteScrollController, InfiniteScrollState>((ref) {
@@ -41,7 +41,7 @@ class InfiniteScrollController extends StateNotifier<InfiniteScrollState> {
     if (state.isLoading) return;
     if (state.controller.position.pixels >
         state.controller.position.maxScrollExtent - 400) {
-      print("position pass");
+      print("scroll_controller pass");
       fetchMoreItems();
     }
   }

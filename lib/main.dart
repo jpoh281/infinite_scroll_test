@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:infinite_scroll_test/builder_item/builder_scroll_page.dart';
 import 'package:infinite_scroll_test/notification/notification_scroll_page.dart';
-import 'package:infinite_scroll_test/position/infinite_scroll_page.dart';
+import 'package:infinite_scroll_test/scroll_controller/infinite_scroll_page.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
