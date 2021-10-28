@@ -1,16 +1,4 @@
-# infinite_scroll_test
+# 화면보다 적은 데이터 받아왔을 때 무한 스크롤 우아하게 구현하기
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 상태관리 : Riverpod
+## 패턴 : MVU 패턴
