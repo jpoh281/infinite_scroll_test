@@ -22,7 +22,7 @@ class InfiniteScrollPage extends ConsumerWidget {
         body: ref.watch(infiniteScrollControllerProvider
                 .select((value) => value.items.isNotEmpty))
             ? ListView.builder(
-                physics: const AlwaysScrollableScrollPhysics(),
+                physics: const BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
                 controller: ref.watch(infiniteScrollControllerProvider
                     .select((value) => value.controller)),
                 itemBuilder: (context, index) => Container(
